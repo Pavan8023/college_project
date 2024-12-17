@@ -1,0 +1,95 @@
+/* General adjustments for smaller screens */
+@media (max-width: 1200px) {
+    nav {
+        height: auto;
+        width: 100%;
+        flex-direction: row;
+        justify-content: space-around;
+        position: relative;
+    }
+
+    .div1 {
+        flex-direction: row;
+        height: auto;
+        width: 100%;
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .inside {
+        flex-direction: row;
+        width: auto;
+        visibility: visible;
+        position: relative;
+        gap: 10px;
+    }
+}
+
+/* Tablet view */
+@media (max-width: 768px) {
+    .mainsec {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .sec1, .sec2 {
+        width: 90%;
+        height: auto;
+        margin: 10px;
+    }
+
+    .d1, .dd1 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .lang, .btndiv {
+        flex-direction: column;
+    }
+
+    footer .main-footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
+
+/* Mobile view */
+@media (max-width: 480px) {
+    nav {
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .div1 {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        justify-content: flex-start;
+    }
+
+    .mainsec {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sec1, .sec2 {
+        width: 100%;
+        margin: 5px;
+    }
+
+    .sec5 .boxes {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    footer {
+        text-align: center;
+    }
+}
